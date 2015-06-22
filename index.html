@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/custom.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,12 +20,40 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Ultra simple jQuery Lightbox</h1>
-    <h2>by <a href="http://twitter.com/hectormunozg">Héctor Muñoz</a></h2>
+  <div id="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <h1 class="main-title">Ultra simple jQuery Lightbox</h1>
+      <h2 class="subtitle">by <a href="http://twitter.com/hectormunozg">Héctor Muñoz</a></h2>
+      <div class="col-lg-8 col-lg-offset-2">
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, cumque illo voluptate aut maiores, ad corporis. Laboriosam, beatae qui odit praesentium, quos, iusto impedit deserunt veniam, itaque soluta dolorem nam!</p>
+        <h3>Credits</h3>
+        <ul>
+          <li>Basic styling by <a href="http://getbootstrap.com">Bootstrap 3</a></li>
+          <li>Images by <a href="http://unsplash.com">Unsplash</a></li>
+          <li>Inspired by <a href="http://www.teamtreehouse.com">Treehouse</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4"><a href="#"><img src="img/image1.jpg" height="4000" width="6000" alt="Image 1"></a></div>
+      <div class="col-lg-4"><a href="#"><img src="img/image2.jpg" height="2000" width="3000" alt="Image 2"></a></div>
+      <div class="col-lg-4"><a href="#"><img src="img/image3.jpg" height="3428" width="5142" alt="Image 3"></a></div>
+      <div class="col-lg-4"><a href="#"><img src="img/image4.jpg" height="1667" width="2500" alt="Image 4"></a></div>
+      <div class="col-lg-4"><a href="#"><img src="img/image5.jpg" height="1365" width="2048" alt="Image 5"></a></div>
+      <div class="col-lg-4"><a href="#"><img src="img/image6.jpg" height="4000" width="6000" alt="Image 6"></a></div>    
+    </div>
+  </div>
+  </section>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
