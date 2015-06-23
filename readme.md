@@ -27,7 +27,13 @@ You can style the image shown inside the overlay as well:
 ```javascript
 var imagePath = '#gallery > .container > .row > div > a > img';
 ```
-### 3. Enjoy!
+### 3. Enjoy! Do not forget to add jQuery to your project!
+```html
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- lightbox app -->
+    <script src="js/app.js"></script>
+```
 
 ## Credits
 - Basic styling by [Bootstrap 3](http://getbootstrap.com)
