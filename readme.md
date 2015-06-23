@@ -1,4 +1,4 @@
-# Ultra simple jQuery lightbox
+# Ultra simple jQuery lightbox (check [demo](http://hectormunozg.github.io/simple-jquery-lightbox/))
 ## How to use it
 ### 1. Create in your css a `div id="overlay"` like this:
 ```css
@@ -33,7 +33,7 @@ var imagePath = '#gallery > .container > .row > div > a > img';
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- lightbox app -->
     <script src="js/app.js"></script>
-```
+``
 
 ## Credits
 - Basic styling by [Bootstrap 3](http://getbootstrap.com)
