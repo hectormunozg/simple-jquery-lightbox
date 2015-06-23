@@ -28,3 +28,8 @@ You can style the image shown inside the overlay as well:
 var imagePath = '#gallery > .container > .row > div > a > img';
 ```
 ### 3. Enjoy!
+
+## Credits
+- Basic styling by [Bootstrap 3](http://getbootstrap.com)
+- Images from [Unsplash](http://unsplash.com)
+- Inspired by jQuery [Treehouse course](http://teamtreehouse.com)
