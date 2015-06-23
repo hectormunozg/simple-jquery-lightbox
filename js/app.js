@@ -7,7 +7,8 @@ var image 		 = $('<img>');
 overlay.append(image);
 $('body').append(overlay);
 // On mouse click - display overlay 
-$(imagePath).click(function() {
+$(imagePath).click(function(event) {
+	event.preventDefault();
 	// get image url
 	imageUrl = $(this).attr('src');
 	// toggle overlay
